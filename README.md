@@ -25,8 +25,8 @@ So far, my markup focuses on names of fictional and real people and places; hist
 - The very few minor unnamed fictional characters mentioned in the text but who do not speak or are spoken to are not tagged.
 
 #### Real people
-- Named real people, such as Charles Dickens or Abraham Lincoln, are tagged with `<persName>` with `@ref` to their entry in the Person List for real people.
-- Non-name references to people (such as "the father of our country" for "George Washington") are tagged with `<rs type="person">` with `@ref` to their entry in the Person List.
+- Named real people, (e.g. Charles Dickens or Abraham Lincoln, are tagged with `<persName>` with `@ref` to their entry in the Person List for real people.
+- Non-name references to people (e.g. "the father of our country" for "George Washington") are tagged with `<rs type="person">` with `@ref` to their entry in the Person List.
 
 #### Fictional characters Alcott mentions
 - Named fictional characters created by other authors (e.g. "Sairy Gamp") are not tagged as people but as literary references -- see section [References, Quotations, and Allusions](#references-quotations-and-allusions).
@@ -37,10 +37,10 @@ So far, my markup focuses on names of fictional and real people and places; hist
 ### Places
 I have followed a similar method for places as for people:
 #### Fictional places created by Alcott
-- Named fictional places created by Alcott (even ones who are thinly disguised real places, such as "Hurly-burly House") are tagged with `<placeName>` with `@ref` to their entry in the Place List for real places.
+- Named fictional places created by Alcott (even ones who are thinly disguised real places, e.g. "Hurly-burly House") are tagged with `<placeName>` with `@ref` to their entry in the Place List for real places.
 
 #### Real places
-- Named real places (such as "Washington, D.C." or "Willards") are tagged with `<placeName>` with `@ref` to their entry in the Place List for real places.
+- Named real places (e.g. "Washington, D.C." or "Willards") are tagged with `<placeName>` with `@ref` to their entry in the Place List for real places.
 - Coordinate location of real places are stored in the Place List for real places.
 
 #### Fictional places Alcott mentions
@@ -56,10 +56,7 @@ I have tagged direct and indirect references to literary works, authors, songs, 
 - **hymn** - references to religious songs ("Blow Ye Trumpet Blow")
 - **fairytale** - references to folk tales, etc. ("Blue Beard")
 
-- **historicalPerson** - references to historical people not contemporary to Alcott's time of writing. So, Pocahontas is tagged as <seg type="historicalPerson"> but Abraham Lincoln is tagged as `<persName>`.
-
-While this category of mark-up is the one that's most interesting to me, it's become the slippiest and the most frequently overhauled...
-
+- **historicalPerson** - references to historical people not contemporary to Alcott's time of writing. So, at least for now, Pocahontas is tagged as `<seg type="historicalPerson">` but Abraham Lincoln is tagged as `<persName>`.
 
 
 #### `<bibl>`
@@ -70,7 +67,7 @@ While this category of mark-up is the one that's most interesting to me, it's be
 
 
 
-This tagging scheme is a bit cumbersome. I settled on this system because I wanted to strictly follow TEI schema, include hyperlinks that may be useful to the reader, and also allow for answers to questions such as, "Which author's works does Alcott most refer to?" (answer: Dickens) and "Which of Dickens's novels does Alcott reference most?" (answer: *Martin Chuzzlewit*).  
+While this category of mark-up is the one that's most interesting to me, it's become the slippiest and the most frequently overhauled. The current mark-up scheme is a bit cumbersome. I settled on this system because I wanted to strictly follow TEI schema, include hyperlinks that may be useful to the reader, and also allow for answers to questions such as, "Which author's works does Alcott most refer to?" (answer: Dickens) and "Which of Dickens's novels does Alcott reference most?" (answer: *Martin Chuzzlewit*).  
 
 
 ## To-Do / Currently working on...
